@@ -36,5 +36,4 @@ hf_cache/
 *.csv
 *.parquet
 
-# Vector stores 
-vector_store/faiss/*.lock
+
