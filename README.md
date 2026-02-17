@@ -230,13 +230,7 @@ This project was developed as part of the 10 Academy KAIM Program and demonstrat
  - 🔄 CI/CD - GitHub Actions automation
 
  👤 Author
-<div align="center">
-Bethelihem
-AI & Data Engineering Trainee
-10 Academy – KAIM Program
+- Bethelihem Weldegebrial
+### AI & Data Engineering Trainee
+ ### 10 Academy – KAIM Program
 
-https://img.shields.io/badge/GitHub-bethywa-black?logo=github
-https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin
-https://img.shields.io/badge/Email-Contact-red?logo=gmail
-
-</div>
