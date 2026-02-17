@@ -35,5 +35,7 @@ hf_cache/
 # Large data (keep parquet if required)
 *.csv
 *.parquet
-
+vector_store/
+*.faiss
+*.index
 
