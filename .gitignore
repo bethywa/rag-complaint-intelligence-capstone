@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Model / cache files
+.cache/
+models/
+hf_cache/
+
+# Large data (keep parquet if required)
+*.csv
+*.parquet
+
+# Vector stores / large binaries
+vector_store/faiss/
+*.faiss
+*.pkl
+

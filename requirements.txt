@@ -1,0 +1,27 @@
+# Core
+numpy>=1.23
+pandas>=1.5
+scikit-learn>=1.2
+
+# Embeddings & LLMs
+sentence-transformers>=2.2.2
+transformers>=4.36.0
+torch>=2.0.0
+
+# Vector search
+faiss-cpu>=1.7.4
+
+# UI
+gradio>=4.0.0
+
+# Utilities
+tqdm>=4.65
+pickle-mixin>=1.0.2
+
+# Testing
+pytest>=7.4
+
+# Optional (recommended)
+python-dotenv>=1.0.0
+
+pyarrow>=15.0.0
