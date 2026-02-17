@@ -216,13 +216,63 @@ source .venv/bin/activate  # Linux/Mac
     notebooks/evaluation.ipynb
 
 ```
-## 🔮 Next Steps
-- 🖥️ Interactive Gradio web interface - User-friendly UI for querying
-- ⚡ Response streaming - Better UX with token-by-token streaming
-- 🐳 Docker containerization - Deployment-ready packaging
-- 🚀 Model upgrades - Test with larger LLMs (LLaMA, GPT)
 
-## 📝 Important Notes
+
+---
+
+## 🧪 System Evaluation (Qualitative)
+
+The system was evaluated using **representative business questions** relevant to financial complaint analysis.
+
+| Question | Answer Quality | Notes |
+|--------|----------------|------|
+| Credit card dispute complaints | ⭐⭐⭐⭐ | Grounded in retrieved evidence |
+| Unauthorized charges | ⭐⭐⭐⭐ | Clear and concise |
+| Chargeback issues | ⭐⭐⭐ | Some abstraction loss |
+| Account closures | ⭐⭐⭐ | Needs stronger summarization |
+
+**Key Insight:**  
+Increasing `top_k` improves recall but can introduce noise — optimal balance is required.
+
+---
+
+## 🖥️ Interactive Gradio Application
+
+### Features:
+- Natural language question input
+- AI-generated answers
+- Source document display (trust & transparency)
+- Clear/reset conversation
+- User-friendly layout for non-technical users
+
+### Run the App:
+```bash
+python app.py
+
+Then open:
+ http://127.0.0.1:7860
+ 
+```
+
+
+
+### ✅ Engineering Improvements 
+- Compared to earlier versions, this capstone includes:
+   - ✅ Fully modular Python codebase
+   - ✅ Dataclass-based configuration
+   - ✅ Unit tests (5 core components)
+   - ✅ GitHub Actions CI pipeline
+   - ✅ Improved embedding & LLM models
+   - ✅ Qualitative evaluation framework
+   - ✅ Production-style UI
+
+### 🚧 Planned Improvements
+- Response streaming in UI
+- Dockerized deployment
+- REST API endpoint
+- Advanced evaluation metrics
+
+### 📝 Important Notes
 This project was developed as part of the 10 Academy KAIM Program and demonstrates best practices in:
  - 📊 Data Engineering - Vector embeddings, FAISS indexing
  - 🧠 NLP & LLM Systems - RAG architecture, prompt engineering
